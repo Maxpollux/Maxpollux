@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>	 
+	<link rel="stylesheet" href="Smart.css">
+  </head>
+  <body>
+    <h1> Smart Bike</h1>
+   
+	<main>
+		<div  id="map"></div>
+		<div id="Logo"></div>
+		<ul class="menuderoulant">
+		 <li class="information">
+		  <a href="#" onclick="toggleInformation()">INFORMATION </a>
+		  <ul class="sousmenu" id="sousmenu-info">
+		   <li><a href="#">Appareil activé </a></li>
+		   <li><a href="#">Temps de trajet </a></li>
+		   <li><a href="#">Distance parcourue </a></li>
+		   <li><a href="#">Horaire </a></li>
+		  </ul>
+		 </li>
+		</ul>
+	</main>
+   <script src= "SmartMap.mjs"></script>
+   </body>
